@@ -1,0 +1,1860 @@
+<!DOCTYPE html>
+<!--
+Template Name: Midone - HTML Admin Dashboard Template
+Author: Left4code
+Website: http://www.left4code.com/
+Contact: muhammadrizki@left4code.com
+Purchase: https://themeforest.net/user/left4code/portfolio
+Renew Support: https://themeforest.net/user/left4code/portfolio
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en">
+<!-- BEGIN: Head -->
+
+<head>
+    <meta charset="utf-8">
+    <link href="images/logop.svg" rel="shortcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Midone admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities.">
+    <meta name="keywords"
+        content="admin template, Midone admin template, dashboard template, flat admin template, responsive admin template, web app">
+    <meta name="author" content="LEFT4CODE">
+    <title>Wizard - Midone - Tailwind HTML Admin Template</title>
+    <!-- BEGIN: CSS Assets-->
+    <link rel="stylesheet" href="dist/css/app.css" />
+    <link rel="stylesheet" href="dist/css/index.css" />
+
+    <!-- END: CSS Assets-->
+</head>
+<!-- END: Head -->
+<style>
+    .theme {
+        background-color: #FFFFFF;
+    }
+
+    .textColor {
+        color: #196331;
+    }
+
+    .side-menu .side-menu__icon,
+    .side-menu__title {
+        color: #196331;
+    }
+
+    .side-menu__sub-open li {
+        color: #196331;
+    }
+
+    li {
+        background-color: #FFFFFF;
+    }
+
+    .first:hover .side-menu__icon,
+    .first:hover .side-menu__title {
+        color: white;
+    }
+
+    /* .side-menu__title:hover{
+        color: #FFFFFF;
+    } */
+</style>
+
+<body class="app theme">
+
+    <!-- END: Mobile Menu -->
+    <div class="flex">
+        <!-- BEGIN: Side Menu -->
+        <nav id="nav1" class="side-nav">
+            <a href="" class="intro-x flex items-center pl-5 pt-4">
+                <img src="images/logop.svg" style="width: 60%">
+                <!-- <img alt="Midone Tailwind HTML Admin Template" class="w-6" src="images/logop.svg"> -->
+                <!-- <span class="hidden xl:block text-white text-lg ml-3">
+                    <img alt="Midone Tailwind HTML Admin Template" class="w-20" src="dist/images/logo-text.svg">
+                </span> -->
+            </a>
+            <div class="side-nav__devider my-6"></div>
+            <ul>
+                <li>
+                    <a href="side-menu-chart.html" class="side-menu first">
+                        <div class="side-menu__icon"> <i data-feather="home"></i> </div>
+                        <div class="side-menu__title"> Dashboard </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="side-menu-monitoring.html" class="side-menu first">
+                        <div class="side-menu__icon"> <i data-feather="monitor"></i> </div>
+                        <div class="side-menu__title"> Monitoring </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="javascript:;.html" class="side-menu side-menu--active">
+                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="side-menu__title"> Contrôles <i data-feather="chevron-down"
+                                class="side-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+                        <!-- <li>
+                            <a href="side-menu-wizard-layout-1.html" class="side-menu">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Layout 1</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="side-menu-wizard-layout-2.html" class="side-menu">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Layout 2</div>
+                            </a>
+                        </li> -->
+                        <li>
+                            <!-- <a href="side-menu-wizard-layout-3.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Contrôle Passagers</div>
+
+                            </a> -->
+
+                            <!-- <a href="side-menu-wizard-1.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Poste De Police</div>
+                            </a>
+
+                            <a href="side-menu-wizard-2.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Deuxiéme Ligne Police</div>
+                            </a>
+                            <a href="side-menu-wizard-3.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">PIF</div>
+                            </a>
+                            <a href="side-menu-wizard-4.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Embarquement</div>
+                            </a> -->
+                            <a href="side-menu-crud-data-list.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Liste Passagers</div>
+
+                            </a>
+
+
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;.html" class="side-menu side-menu--active">
+                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="side-menu__title"> Scénario 1 <i data-feather="chevron-down"
+                                class="side-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+
+                        <li>
+
+                            <a href="side-menu-wizard-1 - s1.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Poste De Police</div>
+                            </a>
+
+                            <a href="side-menu-wizard-2 - s1.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Deuxiéme Ligne Police</div>
+                            </a>
+                            <a href="side-menu-wizard-3 - s1.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">PIF</div>
+                            </a>
+                            <a href="side-menu-wizard-4 - s1.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Embarquement</div>
+                            </a>
+                            <!-- <a href="side-menu-crud-data-list.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Liste Passagers</div>
+
+                            </a> -->
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;.html" class="side-menu side-menu--active">
+                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="side-menu__title"> Scénario 2 <i data-feather="chevron-down"
+                                class="side-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+
+                        <li>
+
+                            <a href="side-menu-wizard-1 - s2.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Poste De Police</div>
+                            </a>
+
+                            <a href="side-menu-wizard-2 - s2.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Deuxiéme Ligne Police</div>
+                            </a>
+                            <a href="side-menu-wizard-3 - s2.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">PIF</div>
+                            </a>
+                            <a href="side-menu-wizard-4 - s2.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Embarquement</div>
+                            </a>
+                            <!-- <a href="side-menu-crud-data-list.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Liste Passagers</div>
+
+                            </a> -->
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="javascript:;.html" class="side-menu side-menu--active">
+                        <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
+                        <div class="side-menu__title"> Scénario 3 <i data-feather="chevron-down"
+                                class="side-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+
+                        <li>
+
+                            <a href="side-menu-wizard-1 - s3.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Poste De Police</div>
+                            </a>
+
+                            <a href="side-menu-wizard-2 - s3.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Deuxiéme Ligne Police</div>
+                            </a>
+                            <a href="side-menu-wizard-3 - s3.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">PIF</div>
+                            </a>
+                            <a href="side-menu-wizard-4 - s3.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Embarquement</div>
+                            </a>
+                            <!-- <a href="side-menu-crud-data-list.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Liste Passagers</div>
+
+                            </a> -->
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:;.html" class="side-menu side-menu--active">
+                        <div class="side-menu__icon"> <i data-feather="users"></i> </div>
+                        <div class="side-menu__title"> Gestion Utilisateurs <i data-feather="chevron-down"
+                                class="side-menu__sub-icon"></i> </div>
+                    </a>
+                    <ul class="">
+
+                        <li>
+                            <a href="side-menu-users-layout-1.html" class="side-menu side-menu--active">
+                                <div class="side-menu__icon"> <i data-feather="zap"></i> </div>
+                                <div class="side-menu__title">Liste Utilisateurs</div>
+                            </a>
+
+                        </li>
+                    </ul>
+                </li>
+                <li class="side-nav__devider my-6"></li>
+
+            </ul>
+        </nav>
+        <!-- END: Side Menu -->
+        <!-- BEGIN: Content -->
+        <div class="content">
+            <!-- BEGIN: Top Bar -->
+            <div class="top-bar">
+                <!-- BEGIN: Breadcrumb -->
+                <div id='bar1' style="font-size: 500px !important;"
+                    class="-intro-x breadcrumb mr-auto hidden  sm:flex point-hover">
+                    <div class="side-menu__icon"> <i data-feather="menu"></i> </div>
+
+                </div>
+
+                <div id='bar2' class="-intro-x breadcrumb mr-auto hidden  sm:flex point-hover">
+                    <div class="side-menu__icon"> <i data-feather="menu"></i> </div>
+                </div>
+                <!-- END: Breadcrumb -->
+                <!-- BEGIN: Search -->
+                <div class="intro-x relative mr-3 sm:mr-6">
+                    <div class="search hidden sm:block">
+                        <input type="text" class="search__input input placeholder-theme-13" placeholder="Scann...">
+                        <i data-feather="search" class="search__icon"></i>
+                    </div>
+                    <a class="notification sm:hidden" href=""> <i data-feather="search" class="notification__icon"></i>
+                    </a>
+                    <div class="search-result">
+
+                    </div>
+                </div>
+                <!-- END: Search -->
+                <!-- BEGIN: Notifications -->
+                <!-- <div class="intro-x dropdown relative mr-auto sm:mr-6">
+                        <div class="dropdown-toggle notification notification--bullet cursor-pointer"> <i data-feather="bell" class="notification__icon"></i> </div>
+                        <div class="notification-content dropdown-box mt-8 absolute top-0 left-0 sm:left-auto sm:right-0 z-20 -ml-10 sm:ml-0">
+                            <div class="notification-content__box dropdown-box__content box">
+                                <div class="notification-content__title">Notifications</div>
+                                <div class="cursor-pointer relative flex items-center ">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-1.jpg">
+                                        <div class="w-3 h-3 bg-theme-109 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Codex Negoce</a>
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">06:05 AM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&#039;s standard dummy text ever since the 1500</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-6.jpg">
+                                        <div class="w-3 h-3 bg-theme-109 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Keanu Reeves</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomi</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-11.jpg">
+                                        <div class="w-3 h-3 bg-theme-109 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Denzel Washington</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">03:20 PM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-15.jpg">
+                                        <div class="w-3 h-3 bg-theme-109 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Kevin Spacey</a> 
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 20</div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer relative flex items-center mt-5">
+                                    <div class="w-12 h-12 flex-none image-fit mr-1">
+                                        <img alt="Midone Tailwind HTML Admin Template" class="rounded-full" src="dist/images/profile-9.jpg">
+                                        <div class="w-3 h-3 bg-theme-109 absolute right-0 bottom-0 rounded-full border-2 border-white"></div>
+                                    </div>
+                                    <div class="ml-2 overflow-hidden">
+                                        <div class="flex items-center">
+                                            <a href="javascript:;" class="font-medium truncate mr-5">Codex Negoce</a>
+                                            <div class="text-xs text-gray-500 ml-auto whitespace-no-wrap">01:10 PM</div>
+                                        </div>
+                                        <div class="w-full truncate text-gray-600">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                <!-- END: Notifications -->
+                <!-- BEGIN: Account Menu -->
+                <div class="intro-x dropdown w-8 h-8 relative">
+                    <div class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in">
+                        <img alt="Midone Tailwind HTML Admin Template" src="dist/images/profile-13.jpg">
+                    </div>
+                    <div class="dropdown-box mt-10 absolute w-56 top-0 right-0 z-20">
+                        <div class="dropdown-box__content box bg-theme-138 text-black">
+                            <div class="p-4 border-b border-theme-140">
+                                <div class="font-medium">Ibrahima sow</div>
+                                <div class="text-xs text-theme-141">Contrôleur</div>
+                            </div>
+                            <div class="p-2">
+                                <a href="side-menu-profile-overview-3.html"
+                                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-101 rounded-md">
+                                    <i data-feather="user" class="w-4 h-4 mr-2"></i> Profile </a>
+                                <!-- <a href=""
+                                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-101 rounded-md">
+                                    <i data-feather="edit" class="w-4 h-4 mr-2"></i> Add Account </a>
+                                <a href=""
+                                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-101 rounded-md">
+                                    <i data-feather="lock" class="w-4 h-4 mr-2"></i> Changer mot de passe </a>
+                                <a href=""
+                                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-101 rounded-md">
+                                    <i data-feather="help-circle" class="w-4 h-4 mr-2"></i> Aide </a> -->
+                            </div>
+                            <div class="p-2 border-t border-theme-140">
+                                <a href="login-login.html"
+                                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-101 rounded-md">
+                                    <i data-feather="toggle-right" class="w-4 h-4 mr-2"></i> Déconnexion </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Account Menu -->
+            </div>
+            <!-- END: Top Bar -->
+           
+            <!-- BEGIN: Wizard Layout -->
+
+
+            <form action="#" class="form">
+                <!-- Progress bar -->
+                <div class="intro-y box py-10 sm:py-20 mt-5">
+                    <div class="wizard flex flex-col lg:flex-row justify-center px-5 sm:px-20">
+                        <div class="intro-x lg:text-center flex items-center lg:block flex-1 z-10">
+                            <div class="progressbar">
+                                <div class="progress" id="progress"></div>
+                                <div class="progress-step " data-title="Poste De Police"></div>
+                                <div class="progress-step" data-title="Deuxiéme Ligne Police" disabled></div>
+                                <div class="progress-step " data-title="PIF" disabled></div>
+                                <div class="progress-step progress-step-active" data-title="Embarquement" disabled></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Steps -->
+
+                    <div class="form-step form-step-active">
+
+                       
+
+                        <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                            <div class="font-medium text-base">Contrôles Documents</div>
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="mb-2">Passeport</div>
+
+                                    <div class="intro-x relative mr-3 sm:mr-6">
+                                        <div class="search hidden sm:block">
+                                            <input type="text" class="search__input input placeholder-theme-13"
+                                                placeholder="Scann...">
+                                        </div>
+                                        <a class="notification sm:hidden" href=""> <i data-feather="search"
+                                                class="notification__icon"></i>
+                                        </a>
+                                        <div class="search-result">
+
+                                        </div>
+                                    </div>
+                                    <br>
+
+                                    <div class="intro-y col-span-12 sm:col-span-6">
+                                        <div class="font-medium-gray text-base">Informations du Passeport</div>
+
+                                        <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                            <div class="intro-y col-span-6 sm:col-span-3">
+                                               Vide
+
+
+                                            </div>
+                                    
+                                        </div>
+                                       
+
+                                      
+
+
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                    <br>
+
+                                    <input data-target="#basic-dropdown" class="show-code input input--switch border"
+                                        type="checkbox">
+                                </div>
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="mb-2">Billet</div>
+                                    <div class="intro-x relative mr-3 sm:mr-6">
+                                        <div class="search hidden sm:block">
+                                            <input type="text" class="search__input input placeholder-theme-13"
+                                                placeholder="Scann...">
+                                        </div>
+                                        <a class="notification sm:hidden" href=""> <i data-feather="search"
+                                                class="notification__icon"></i>
+                                        </a>
+                                        <div class="search-result">
+
+                                        </div>
+                                    </div>
+                                    <br>
+
+
+                                    <div class="intro-y col-span-12 sm:col-span-6">
+                                        <div class="font-medium-gray text-base">Informations du billet</div>
+
+
+
+                                        <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                            <div class="intro-y col-span-6 sm:col-span-3">
+                                                Vide
+
+
+                                            </div>
+                                           
+                                        </div>
+
+                                     
+
+                                     
+
+
+                                    </div>
+                                    <br>
+                                    <input data-target="#basic-dropdown" class="show-code input input--switch border"
+                                        type="checkbox">
+                                </div>
+
+                                <div class="intro-y col-span-12 flex items-center justify-center sm:justify-end mt-5">
+                                    <!-- <a href="#" class="btn btn-prev">Rejeter</a> -->
+                                    <div class="p-5" id="delete-modal">
+                                        <div class="preview">
+                                            <div class="text-center"> <a href="javascript:;" class="btn btn-prev"
+                                                    data-toggle="modal" data-target="#delete-modal-preview"
+                                                    class="button inline-block bg-theme-101 text-white">Rejeter</a>
+                                            </div>
+                                            <div class="modal" id="delete-modal-preview">
+                                                <div class="modal__content">
+                                                    <div class="p-5 text-center">
+                                                        <i data-feather="x-circle"
+                                                            class="w-16 h-16 text-theme-106 mx-auto mt-3"></i>
+                                                        <div class="text-3xl mt-5">Etes vous sûr?</div>
+                                                        <div class="text-gray-600 mt-2">Voulez vous réellement
+                                                            bloqué ce passager.</div>
+                                                    </div>
+                                                    <div class="px-5 pb-8 text-center">
+                                                        <button type="button" data-dismiss="modal"
+                                                            class="button w-24 border text-gray-700 mr-1">Fermer</button>
+                                                        <button type="button"
+                                                            class="button w-24 bg-theme-106 text-white">Rejeter</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="source-code hidden">
+                                            <button data-target="#copy-delete-modal"
+                                                class="copy-code button button--sm border flex items-center text-gray-700">
+                                                <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                            <div class="overflow-y-auto h-64 mt-3">
+                                                <pre class="source-preview"
+                                                    id="copy-delete-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#delete-modal-preview&quot; class=&quot;button inline-block bg-theme-101 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;delete-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;x-circle&quot; class=&quot;w-16 h-16 text-theme-106 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagAre you sure?HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagDo you really want to delete these records? This process cannot be undone.HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 border text-gray-700 mr-1&quot;HTMLCloseTagCancelHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; class=&quot;button w-24 bg-theme-106 text-white&quot;HTMLCloseTagDeleteHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <a href="#" class="btn btn-next ">Valider</a> -->
+
+                                    <div class="p-5" id="success-modal">
+                                        <div class="preview">
+                                            <div class="text-center"> <a href="javascript:;" class="btn btn-next"
+                                                    data-toggle="modal" data-target="#success-modal-preview"
+                                                    class="button inline-block bg-theme-101 text-white">Valider</a>
+                                            </div>
+                                            <div class="modal" id="success-modal-preview">
+                                                <div class="modal__content">
+                                                    <div class="p-5 text-center">
+                                                        <i data-feather="check-circle"
+                                                            class="w-16 h-16 text-theme-109 mx-auto mt-3"></i>
+                                                            <div class="text-3xl mt-5">Réussi!</div>
+                                                            <div class="text-gray-600 mt-2">Passer au suivant!</div>
+                                                    </div>
+                                                    <div class="px-5 pb-8 text-center">
+                                                        <button type="button" data-dismiss="modal"
+                                                            class="button w-24 bg-theme-101 text-white">Ok</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="source-code hidden">
+                                            <button data-target="#copy-success-modal"
+                                                class="copy-code button button--sm border flex items-center text-gray-700">
+                                                <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
+                                            <div class="overflow-y-auto h-64 mt-3">
+                                                <pre class="source-preview"
+                                                    id="copy-success-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#success-modal-preview&quot; class=&quot;button inline-block bg-theme-101 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;success-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;check-circle&quot; class=&quot;w-16 h-16 text-theme-109 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagGood job!HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagYou clicked the button!HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 bg-theme-101 text-white&quot;HTMLCloseTagOkHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                                <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+
+
+                                    <div
+                                        class="intro-y col-span-12  sm:justify-start mt-6">
+                                        <a href="side-menu-wizard-1.html" class="btnnext">Suivant</a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                    <div class="form-step">
+                        <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                            <div class="font-medium text-base">Poste de Police</div>
+
+
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <thead>
+                                    <tr role="row">
+
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NOM</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>PRENOM</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NUMERO PASSEPORT</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NUMERO BILLET</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>DEPART</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>DESTINATION</th>
+                                            </div>
+                                        </div>
+                                    </tr>
+                                </thead>
+                            </div>
+
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <tbody>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>Estéphane</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>LEFRANC</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>2757 1987 01235</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>2 01 1978</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>DAKAR</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>FRANCE</td>
+                                        </div>
+
+                                    </div>
+                                </tbody>
+
+                            </div>
+                            </table> -->
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Validité Papier</div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Passport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-109"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i>Accepté </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-106"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i> Rejeté</div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Informations Du Voyageur</div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Nom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            lefranc
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Prenom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Estéphane
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro Passeport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            1234 0545 9809
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            0012 2345
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Départ
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            DAKAR
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Destination
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            PARIS
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                            <div class="font-medium text-base">Contrôlesss documents </div>
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="mb-2">Passeport</div>
+                                    <input data-target="#basic-dropdown" class="show-code input input--switch border"
+                                        type="checkbox">
+                                </div>
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="mb-2">Billet</div>
+                                    <input data-target="#basic-dropdown" class="show-code input input--switch border"
+                                        type="checkbox">
+                                </div>
+
+                                <div class="intro-y col-span-12 flex items-center justify-center sm:justify-end mt-5">
+                                    <a href="#" class="btn btn-prev ">Retour</a>
+                                    <a href="#" class="btn btn-next ">Valider</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="form-step">
+                        <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                            <div class="font-medium text-base">Poste de Police</div>
+
+
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <thead>
+                                    <tr role="row">
+
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NOM</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>PRENOM</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NUMERO PASSEPORT</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NUMERO BILLET</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>DEPART</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>DESTINATION</th>
+                                            </div>
+                                        </div>
+                                    </tr>
+                                </thead>
+                            </div>
+
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <tbody>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>Estéphane</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>LEFRANC</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>2757 1987 01235</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>2 01 1978</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>DAKAR</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>FRANCE</td>
+                                        </div>
+
+                                    </div>
+                                </tbody>
+
+                            </div>
+                            </table> -->
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Validité Papier</div>
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Passport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-109"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i>Accepté </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-106"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i> Rejeté</div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Informations Du Voyageur</div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Nom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            lefranc
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Prenom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Estéphane
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro Passeport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            1234 0545 9809
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            0012 2345
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Départ
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            DAKAR
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Destination
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            PARIS
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                            <div class="font-medium text-base">Deuxiéme Ligne Police</div>
+
+
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <thead>
+                                    <tr role="row">
+
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NOM</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>PRENOM</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NUMERO PASSEPORT</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NUMERO BILLET</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>DEPART</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>DESTINATION</th>
+                                            </div>
+                                        </div>
+                                    </tr>
+                                </thead>
+                            </div>
+
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <tbody>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>Estéphane</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>LEFRANC</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>2757 1987 01235</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>2 01 1978</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>DAKAR</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>FRANCE</td>
+                                        </div>
+
+                                    </div>
+                                </tbody>
+
+                            </div>
+                            </table> -->
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Validité Papier</div>
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Passport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-109"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i>Accepté </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-106"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i> Rejeté</div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Informations Du Voyageur</div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Nom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            lefranc
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Prenom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Estéphane
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro Passeport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            1234 0545 9809
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            0012 2345
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Départ
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            DAKAR
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Destination
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            PARIS
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                            <div class="font-medium text-base">Contrôles </div>
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="mb-2">Passeports</div>
+                                    <input data-target="#basic-dropdown" class="show-code input input--switch border"
+                                        type="checkbox">
+                                </div>
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="mb-2">Billets</div>
+                                    <input data-target="#basic-dropdown" class="show-code input input--switch border"
+                                        type="checkbox">
+                                </div>
+
+                                <div class="intro-y col-span-12 flex items-center justify-center sm:justify-end mt-5">
+                                    <a href="#" class="btn btn-prev">Retour</a>
+                                    <a href="#" class="btn btn-next ">Valider</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="form-step">
+                        <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                            <div class="font-medium text-base">Poste de Police</div>
+
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Validité Papier</div>
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Passport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-109"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i>Accepté </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-106"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i> Rejeté</div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Informations Du Voyageur</div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Nom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            lefranc
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Prenom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Estéphane
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro Passeport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            1234 0545 9809
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            0012 2345
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Départ
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            DAKAR
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Destination
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            PARIS
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                            <div class="font-medium text-base">Deuxiéme Ligne Police</div>
+
+
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <thead>
+                                    <tr role="row">
+
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NOM</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>PRENOM</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NUMERO PASSEPORT</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>NUMERO BILLET</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>DEPART</th>
+                                            </div>
+                                        </div>
+                                        <div class="intro-y col-span-12 sm:col-span-2">
+                                            <div class="mb-2">
+                                                <th>DESTINATION</th>
+                                            </div>
+                                        </div>
+                                    </tr>
+                                </thead>
+                            </div>
+
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <tbody>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>Estéphane</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>LEFRANC</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>2757 1987 01235</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>2 01 1978</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>DAKAR</td>
+                                        </div>
+                                    </div>
+                                    <div class="intro-y col-span-12 sm:col-span-2">
+                                        <div class="mb-2">
+                                            <td>FRANCE</td>
+                                        </div>
+
+                                    </div>
+                                </tbody>
+
+                            </div>
+                            </table> -->
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Validité Papier</div>
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Passport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-109"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i>Accepté </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-106"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i> Rejeté</div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Informations Du Voyageur</div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Nom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            lefranc
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Prenom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Estéphane
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro Passeport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            1234 0545 9809
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            0012 2345
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Départ
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            DAKAR
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Destination
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            PARIS
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
+                            <div class="font-medium text-base">PIF</div>
+                            <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Validité Papier</div>
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Passport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-109"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i>Accepté </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            Billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-2">
+                                            <div class="flex items-center justify-center text-theme-106"> <i
+                                                    data-feather="check-square" class="w-4 h-4 mr-2"></i> Rejeté</div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="intro-y col-span-12 sm:col-span-6">
+                                    <div class="font-medium-gray text-base">Informations Du Voyageur</div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Nom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            lefranc
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Prenom
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Estéphane
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro Passeport
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            1234 0545 9809
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Numéro billet
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            0012 2345
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Départ
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            DAKAR
+
+                                        </div>
+                                    </div>
+
+                                    <div class="grid grid-cols-6 gap-4 row-gap-5 mt-5">
+
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            Destination
+
+
+                                        </div>
+                                        <div class="intro-y col-span-6 sm:col-span-3">
+                                            PARIS
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="font-medium text-base">Contrôles </div>
+                        <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                            <div class="intro-y col-span-12 sm:col-span-6">
+                                <div class="mb-2">Passeport</div>
+                                <input data-target="#basic-dropdown" class="show-code input input--switch border"
+                                    type="checkbox">
+                            </div>
+                            <div class="intro-y col-span-12 sm:col-span-6">
+                                <div class="mb-2">Billet</div>
+                                <input data-target="#basic-dropdown" class="show-code input input--switch border"
+                                    type="checkbox">
+                            </div>
+
+                            <div class="intro-y col-span-12 flex items-center justify-center sm:justify-end mt-5">
+                                <a href="#" class="btn btn-prev">Retour</a>
+                                <a href="#" class="btn btn-next ">Valider</a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </form>
+            <!-- END: Wizard Layout -->
+        </div>
+        <!-- END: Content -->
+    </div>
+    <!-- BEGIN: JS Assets-->
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=[" your-google-map-api"]&libraries=places"></script>
+    <script src="dist/js/app.js"></script>
+    <!-- <script src="dist/js/index.js"></script> -->
+    <script>
+        document.getElementById("nav1").style.display = 'none';
+        document.getElementById("bar1").style.display = 'none';
+        document.getElementById("bar2").style.display = 'block';
+
+        document.getElementById("bar1").addEventListener("click", function () {
+            document.getElementById("nav1").style.display = 'none';
+            document.getElementById("bar1").style.display = 'none';
+            document.getElementById("progress_doc").style.display = 'none';
+            document.getElementById("tab_recap").style.display = 'none';
+
+            document.getElementById("bar2").style.display = 'block';
+
+        });
+        document.getElementById("bar2").addEventListener("click", function () {
+            document.getElementById("bar2").style.display = 'none';
+
+            document.getElementById("nav1").style.display = 'block';
+            document.getElementById("bar1").style.display = 'block';
+            document.getElementById("progress_doc").style.display = 'block';
+            document.getElementById("tab_recap").style.display = 'block';
+
+        });
+
+        document.getElementById("btn_valider").style.display = 'none';
+
+        document.getElementById("passport_check").addEventListener("change", function () {
+
+            var  passportcheck =  document.getElementById("passport_check").checked;
+            var  billetcheck =  document.getElementById("passport_on").checked;
+
+            console.log(passportcheck, billetcheck);
+
+            if(passportcheck && billetcheck){
+                document.getElementById("btn_valider").style.display = 'block';
+                document.getElementById("btn_rejeter").style.display = 'none';
+            }else{
+                document.getElementById("btn_rejeter").style.display = 'block';
+                document.getElementById("btn_valider").style.display = 'none';
+            }
+        });
+
+
+        document.getElementById("passport_on").addEventListener("change", function () {
+
+            var  passportcheck =  document.getElementById("passport_check").checked;
+            var  billetcheck =  document.getElementById("passport_on").checked;
+
+            console.log(passportcheck, billetcheck);
+
+            if(passportcheck && billetcheck){
+                document.getElementById("btn_valider").style.display = 'block';
+                document.getElementById("btn_rejeter").style.display = 'none';
+            }else{
+                document.getElementById("btn_rejeter").style.display = 'block';
+                document.getElementById("btn_valider").style.display = 'none';
+            }
+        });
+
+
+
+
+    </script>
+
+    <!-- END: JS Assets-->
+</body>
+
+</html>
