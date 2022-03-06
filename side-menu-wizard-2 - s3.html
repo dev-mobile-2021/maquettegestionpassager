@@ -675,7 +675,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </div>
                                         <br>
 
-                                        <input data-target="#basic-dropdown"
+                                        <input id="passport_check" data-target="#basic-dropdown"
                                         class="show-code input input--switch border" type="checkbox">
                                 </div>
                                 <div class="intro-y col-span-12 sm:col-span-6">
@@ -740,7 +740,7 @@ License: You must have a valid license purchased only from themeforest(the above
         
                                         </div>
                                         <br>
-                                        <input data-target="#basic-dropdown"
+                                        <input id="passport_on" data-target="#basic-dropdown"
                                         class="show-code input input--switch border" type="checkbox">
                                 </div>
 
@@ -749,35 +749,35 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <!-- <a href="#" class="btn btn-prev">Rejeter</a> -->
                                     <div class="p-5" id="delete-modal">
                                         <div class="preview">
-                                            <div class="text-center"> <a href="javascript:;" class="btn btn-prev"
-                                                    data-toggle="modal" data-target="#delete-modal-preview"
-                                                    class="button inline-block bg-theme-101 text-white">Rejeter</a>
-                                            </div>
+                                            <!--                                            <div class="text-center"> <a href="javascript:;" class="btn btn-prev"-->
+                                            <!--                                                    data-toggle="modal" data-target="#delete-modal-preview"-->
+                                            <!--                                                    class="button inline-block bg-theme-101 text-white">Rejeter</a>-->
+                                            <!--                                            </div>-->
                                             <div class="modal" id="delete-modal-preview">
                                                 <div class="modal__content">
                                                     <div class="p-5 text-center">
                                                         <i data-feather="x-circle"
-                                                            class="w-16 h-16 text-theme-106 mx-auto mt-3"></i>
+                                                           class="w-16 h-16 text-theme-106 mx-auto mt-3"></i>
                                                         <div class="text-3xl mt-5">Etes vous sûr?</div>
                                                         <div class="text-gray-600 mt-2">Voulez vous réellement
                                                             bloqué ce passager.</div>
                                                     </div>
                                                     <div class="px-5 pb-8 text-center">
                                                         <button type="button" data-dismiss="modal"
-                                                            class="button w-24 border text-gray-700 mr-1">Fermer</button>
+                                                                class="button w-24 border text-gray-700 mr-1">Fermer</button>
                                                         <button type="button"
-                                                            class="button w-24 bg-theme-106 text-white">Rejeter</button>
+                                                                class="button w-24 bg-theme-106 text-white">Rejeter</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="source-code hidden">
                                             <button data-target="#copy-delete-modal"
-                                                class="copy-code button button--sm border flex items-center text-gray-700">
+                                                    class="copy-code button button--sm border flex items-center text-gray-700">
                                                 <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
                                             <div class="overflow-y-auto h-64 mt-3">
                                                 <pre class="source-preview"
-                                                    id="copy-delete-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#delete-modal-preview&quot; class=&quot;button inline-block bg-theme-101 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;delete-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;x-circle&quot; class=&quot;w-16 h-16 text-theme-106 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagAre you sure?HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagDo you really want to delete these records? This process cannot be undone.HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 border text-gray-700 mr-1&quot;HTMLCloseTagCancelHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; class=&quot;button w-24 bg-theme-106 text-white&quot;HTMLCloseTagDeleteHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                                     id="copy-delete-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#delete-modal-preview&quot; class=&quot;button inline-block bg-theme-101 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;delete-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;x-circle&quot; class=&quot;w-16 h-16 text-theme-106 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagAre you sure?HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagDo you really want to delete these records? This process cannot be undone.HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 border text-gray-700 mr-1&quot;HTMLCloseTagCancelHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; class=&quot;button w-24 bg-theme-106 text-white&quot;HTMLCloseTagDeleteHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
                                             </div>
                                         </div>
                                     </div>
@@ -785,48 +785,49 @@ License: You must have a valid license purchased only from themeforest(the above
 
                                     <div class="p-5" id="success-modal">
                                         <div class="preview">
-                                            <div class="text-center"> <a href="javascript:;" class="btn btn-next"
-                                                    data-toggle="modal" data-target="#success-modal-preview"
-                                                    class="button inline-block bg-theme-101 text-white">Valider</a>
-                                            </div>
+                                            <!--                                            <div class="text-center"> <a href="javascript:;" class="btn btn-next"-->
+                                            <!--                                                    data-toggle="modal" data-target="#success-modal-preview"-->
+                                            <!--                                                    class="button inline-block bg-theme-101 text-white">Valider</a>-->
+                                            <!--                                            </div>-->
                                             <div class="modal" id="success-modal-preview">
                                                 <div class="modal__content">
                                                     <div class="p-5 text-center">
                                                         <i data-feather="check-circle"
-                                                            class="w-16 h-16 text-theme-109 mx-auto mt-3"></i>
-                                                            <div class="text-3xl mt-5">Réussi!</div>
-                                                            <div class="text-gray-600 mt-2">Passer au suivant!</div>
+                                                           class="w-16 h-16 text-theme-109 mx-auto mt-3"></i>
+                                                        <div class="text-3xl mt-5">Réussi!</div>
+                                                        <div class="text-gray-600 mt-2">Passer au suivant!</div>
                                                     </div>
                                                     <div class="px-5 pb-8 text-center">
                                                         <button type="button" data-dismiss="modal"
-                                                            class="button w-24 bg-theme-101 text-white">Ok</button>
+                                                                class="button w-24 bg-theme-101 text-white">Ok</button>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="source-code hidden">
                                             <button data-target="#copy-success-modal"
-                                                class="copy-code button button--sm border flex items-center text-gray-700">
+                                                    class="copy-code button button--sm border flex items-center text-gray-700">
                                                 <i data-feather="file" class="w-4 h-4 mr-2"></i> Copy code </button>
                                             <div class="overflow-y-auto h-64 mt-3">
                                                 <pre class="source-preview"
-                                                    id="copy-success-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#success-modal-preview&quot; class=&quot;button inline-block bg-theme-101 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;success-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;check-circle&quot; class=&quot;w-16 h-16 text-theme-109 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagGood job!HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagYou clicked the button!HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 bg-theme-101 text-white&quot;HTMLCloseTagOkHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
+                                                     id="copy-success-modal"> <code class="text-xs p-0 rounded-md html pl-5 pt-8 pb-4 -mb-10 -mt-10"> HTMLOpenTagdiv class=&quot;text-center&quot;HTMLCloseTag HTMLOpenTaga href=&quot;javascript:;&quot; data-toggle=&quot;modal&quot; data-target=&quot;#success-modal-preview&quot; class=&quot;button inline-block bg-theme-101 text-white&quot;HTMLCloseTagShow ModalHTMLOpenTag/aHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;modal&quot; id=&quot;success-modal-preview&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;modal__content&quot;HTMLCloseTag HTMLOpenTagdiv class=&quot;p-5 text-center&quot;HTMLCloseTag HTMLOpenTagi data-feather=&quot;check-circle&quot; class=&quot;w-16 h-16 text-theme-109 mx-auto mt-3&quot;HTMLCloseTagHTMLOpenTag/iHTMLCloseTag HTMLOpenTagdiv class=&quot;text-3xl mt-5&quot;HTMLCloseTagGood job!HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;text-gray-600 mt-2&quot;HTMLCloseTagYou clicked the button!HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTagdiv class=&quot;px-5 pb-8 text-center&quot;HTMLCloseTag HTMLOpenTagbutton type=&quot;button&quot; data-dismiss=&quot;modal&quot; class=&quot;button w-24 bg-theme-101 text-white&quot;HTMLCloseTagOkHTMLOpenTag/buttonHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag HTMLOpenTag/divHTMLCloseTag </code> </pre>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="px-5 sm:px-20 mt-10 pt-10 border-t border-gray-200">
-                                <div class="grid grid-cols-12 gap-4 row-gap-5 mt-5">
+                            <div class="">
 
-
-                                    <div
-                                        class="intro-y col-span-12  sm:justify-start mt-6">
-                                        <a href="side-menu-wizard-32suivant.html" class="btnnext">Suivant</a>
-                                    </div>
-                                   
+                                <div id="btn_rejeter" class="intro-y col-span-12 sm:justify-start text-center "> <a href="javascript:;" class="btn btn-prev"
+                                                                                                                    data-toggle="modal" data-target="#delete-modal-preview"
+                                                                                                                    class="button inline-block bg-theme-101 text-white">Rejeter</a>
                                 </div>
+                                <div id="btn_valider" class="intro-y col-span-12  sm:justify-start text-center"> <a href="javascript:;" class="btn btn-next"
+                                                                                                                    data-toggle="modal" data-target="#success-modal-preview"
+                                                                                                                    class="button inline-block bg-theme-101 text-white">Valider</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -1867,6 +1868,41 @@ License: You must have a valid license purchased only from themeforest(the above
             document.getElementById("nav1").style.display = 'block';
             document.getElementById("bar1").style.display = 'block';
 
+        });
+
+        document.getElementById("btn_valider").style.display = 'none';
+
+        document.getElementById("passport_check").addEventListener("change", function () {
+
+            var  passportcheck =  document.getElementById("passport_check").checked;
+            var  billetcheck =  document.getElementById("passport_on").checked;
+
+            console.log(passportcheck, billetcheck);
+
+            if(passportcheck && billetcheck){
+                document.getElementById("btn_valider").style.display = 'block';
+                document.getElementById("btn_rejeter").style.display = 'none';
+            }else{
+                document.getElementById("btn_rejeter").style.display = 'block';
+                document.getElementById("btn_valider").style.display = 'none';
+            }
+        });
+
+
+        document.getElementById("passport_on").addEventListener("change", function () {
+
+            var  passportcheck =  document.getElementById("passport_check").checked;
+            var  billetcheck =  document.getElementById("passport_on").checked;
+
+            console.log(passportcheck, billetcheck);
+
+            if(passportcheck && billetcheck){
+                document.getElementById("btn_valider").style.display = 'block';
+                document.getElementById("btn_rejeter").style.display = 'none';
+            }else{
+                document.getElementById("btn_rejeter").style.display = 'block';
+                document.getElementById("btn_valider").style.display = 'none';
+            }
         });
     </script>
 
